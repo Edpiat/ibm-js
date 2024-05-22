@@ -15,5 +15,11 @@ function checkCountValue() {
 }
 
 function displayCount() {
-    document.getElementById('countDisplay').innerHTML=count;
+    document.getElementById('countDisplay').innerText=count;
+}
+
+
+function resetCount(){
+    count=0;
+    displayCount();
 }
